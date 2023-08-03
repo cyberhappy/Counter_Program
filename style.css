@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #countLabel {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  #decreaseBtn {
+    background-color: #dc3545;
+  }
+  
+  #resetBtn {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  #increaseBtn {
+    background-color: #28a745;
+  }
+  
+  button:hover:active {
+    background-color: #004080;
+  }  
